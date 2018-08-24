@@ -1,5 +1,5 @@
-print(isinstance(4,object))
-print(isinstance("Hello",object))
+print(isinstance(4,int))
+print(isinstance("Hello",int))
 print(isinstance(None,object))
 print(isinstance([1,2,3],object))
 '''gives object's identity
@@ -17,7 +17,11 @@ Instead, it adds another refrence to the same object.
 Python will always handle the creation of new object.
 '''
 
-'''Duck Tying'''
+'''Duck Tying
+Duck typing is a concept that says that the “type” of the object
+is a matter of concern only at runtime and you don’t need to
+explicitly mention the type of the object before you perform nay kind
+of operation on that object'''
 def compute(a,b,c):
     return(a+b)*c
 

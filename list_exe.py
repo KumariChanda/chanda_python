@@ -1,14 +1,14 @@
-#List
-'''roll_no=[]
+'''#List
+roll_no=[]
 for i in range(1,60):
     roll_no.append(i)
 
-print(roll_no)
+print(roll_no)'''
 
 roll_no=[20,14,13,12,11,1,2,3,4,5,6,7,8,9,10]
 seating=sorted(roll_no)#to sort list elements.
 print(seating)
-'''
+
 #DictionaryDS
 empty={}
 print(type(empty))
@@ -52,4 +52,13 @@ for values in info.values():
 
 ch=info.copy()#copy the dict
 print(ch)
+'''print(len(info))'''
 
+list=[1,2,3]
+a,b,c=list
+print(a,b,c)
+a=5
+b=8
+c=9
+list=[a,b,c]
+print(list)

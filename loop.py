@@ -1,9 +1,10 @@
 # range is use to iterate over a sequence of number
-'''print(range(3))
+print(range(3))
 print(range(5,10))
 print(range(2,12,3))
-print(range(-7,-30,-5))'''
-for i in range(10):
+print(range(-7,-30,-5))
+
+for i in range(1,10):
     print(i)
 
 print("************************************")
