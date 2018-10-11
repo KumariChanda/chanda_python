@@ -63,7 +63,7 @@ False
 False
 >>> 2*3!=5
 True
->>> 1<10
+>>> 1<10.
 True
 >>> 2>=0
 True
